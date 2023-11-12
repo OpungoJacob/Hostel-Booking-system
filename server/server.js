@@ -1,5 +1,5 @@
 //nodemon ./server/server.js
-const express = require('express')
+const express = require('express');
 const mongoose = require('mongoose')
 const cors = require('cors')
 const EmployeeModel = require('./models/Employee')
