@@ -1,0 +1,66 @@
+.nav-contents{
+    padding: 10px 10px;
+    position: sticky;
+    background-color: aliceblue;
+    height: 120px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ .navbar{
+    display: flex;
+    padding:10px 10px;
+    position: sticky;
+    
+  
+    color: black;
+    margin: 0;
+
+} 
+.logo{
+    height: 55px;
+    margin-right: 5px;
+}
+.logo-text{
+    font-size: 30px;
+    margin-right: auto;
+    margin-top:30px ;
+}
+.links a{
+margin: 10px;
+align-items: center;
+font-size: 20px;
+text-decoration: none;
+color: black;
+}
+.links{
+    margin-top: 32px;
+}
+.search{
+    margin-top: -45px;
+    width: 350px;
+    align-items: center;
+    margin-left: 500px;
+}
+
+
+/* Make the search bar full-width on small screens */
+@media screen and (max-width: 575px) {
+    .search {
+      width: 100%;
+    }
+  }
+  
+  /* Make the search bar input field full-width on small screens */
+  @media screen and (max-width: 575px) {
+    .search .input-group-text {
+      width: 100%;
+    }
+  }
+  
+  /* Make the search bar button full-width on small screens */
+  @media screen and (max-width: 575px) {
+    .search .btn {
+      width: 100%;
+    }
+  }
