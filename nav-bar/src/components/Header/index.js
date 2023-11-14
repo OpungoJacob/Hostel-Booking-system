@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../assets/logo/logo.png"
+import logo from "../../assets/logo/logo.png";
 import "./styles.css";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, InputGroup,FormControl,Button}from 'react-bootstrap';
 
 
