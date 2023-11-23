@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.modules.css';
-import {Link, useNavigate} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom';
 import {useState} from 'react';
 import axios from 'axios'
 
