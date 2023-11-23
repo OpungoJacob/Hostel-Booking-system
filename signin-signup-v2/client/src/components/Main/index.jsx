@@ -1,4 +1,4 @@
-import "./style.module.css"
+import "./style.module.css";
 import React from "react"
 
 const Main = () =>{
