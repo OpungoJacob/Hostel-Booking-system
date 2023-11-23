@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './styles.modules.css'
 import {Link, useNavigate} from 'react-router-dom'
 import {useState} from 'react'
