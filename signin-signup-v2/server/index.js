@@ -8,7 +8,7 @@ const authRoutes = require("./routes/auth");
 
 
 // Db connection
-connection()
+connection();
 
 // middlewares
 app.use(express.json());
